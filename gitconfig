@@ -1,0 +1,21 @@
+[user]
+	email = zhisun@cs.stonybrook.edu
+	name = Zhichuang Sun
+[core]
+	editor = vim
+[alias]
+        ci = commit
+        st = status
+        co = checkout
+        df = diff
+        ca = commit -a --verbose
+        am = commit --amend
+        ls = log --oneline
+        br = branch
+[merge]
+        tool = vimdiff
+[color]
+        ui = true
+[push]
+        default = simple
+
